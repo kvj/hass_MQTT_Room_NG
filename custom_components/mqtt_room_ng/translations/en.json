@@ -1,0 +1,40 @@
+{
+  "title": "MQTT Room",
+  "config": {
+    "step": {
+      "user": {
+        "title": "New Entity (MQTT Room)",
+        "data": {
+          "name": "Name",
+          "device_id": "Device MQTT Topic (example: espresense/devices/iBeacon:UUID)",
+          "set_icon": "Derive Icon from Area",
+          "room_away_sec": "Room presense expriration (seconds)",
+          "room_change_sec": "Delay room change (seconds)",
+          "home_away_mode": "Only detect Home/Away state",
+          "area_ids": "Limit presense to selected areas"
+        }
+      }
+    },
+    "error": {
+    }
+  },
+  "issues": {
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Entity configuration (MQTT Room)",
+        "data": {
+          "device_id": "Device MQTT Topic (example: espresense/devices/iBeacon:UUID)",
+          "set_icon": "Derive Icon from Area",
+          "room_away_sec": "Room presense expriration (seconds)",
+          "room_change_sec": "Delay room change (seconds)",
+          "home_away_mode": "Only detect Home/Away state",
+          "area_ids": "Limit presense to selected areas"
+        }
+      }
+    },
+    "error": {
+    }
+  }
+}

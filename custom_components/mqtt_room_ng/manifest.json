@@ -1,0 +1,13 @@
+{
+  "domain": "mqtt_room_ng",
+  "name": "MQTT Room NG",
+  "documentation": "https://github.com/kvj/hass_MQTT_Room_NG",
+  "issue_tracker": "https://github.com/kvj/hass_MQTT_Room_NG/issues",
+  "dependencies": ["mqtt"],
+  "codeowners": ["@kvj"],
+  "requirements": [],
+  "iot_class": "local_polling",
+  "config_flow": true,
+  "integration_type": "helper",
+  "version": "0.1.0"
+}
